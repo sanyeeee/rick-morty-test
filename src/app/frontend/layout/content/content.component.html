@@ -1,1 +1,9 @@
-<p>content works!</p>
+
+<div
+  *ngIf="layoutService.characters.length >= 0"
+>
+  <app-character
+    *ngFor="let character of layoutService.characters"
+    [character]="character"
+  ></app-character>
+</div>

@@ -1,0 +1,14 @@
+
+<div class="character">
+  <div class="name">
+    {{ character.name }}
+  </div>
+
+  <div class="status">
+    <span *ngIf="character.status === 'Alive'">Életben</span>
+
+    <span *ngIf="character.status === 'Dead'">Halott</span>
+
+    <span *ngIf="character.status === 'Unknown'">Ismeretlen</span>
+  </div>
+</div>

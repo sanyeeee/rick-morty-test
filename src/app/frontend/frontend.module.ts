@@ -7,6 +7,7 @@ import { ContentComponent } from './layout/content/content.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { RickMortyIconComponent } from './layout/header/rick-morty-icon/rick-morty-icon.component';
 import { NavigationComponent } from './layout/header/navigation/navigation.component';
+import { CharacterComponent } from './layout/content/character/character.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { NavigationComponent } from './layout/header/navigation/navigation.compo
     ContentComponent,
     FooterComponent,
     RickMortyIconComponent,
-    NavigationComponent
+    NavigationComponent,
+    CharacterComponent
   ],
   imports: [
     CommonModule,
